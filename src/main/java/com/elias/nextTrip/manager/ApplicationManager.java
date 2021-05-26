@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.server.ResponseStatusException;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.Arrays;
 import java.util.Calendar;
