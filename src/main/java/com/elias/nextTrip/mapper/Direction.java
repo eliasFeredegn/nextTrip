@@ -18,5 +18,5 @@ public class Direction implements Serializable {
   private String text;
 
   @JsonProperty("Value")
-  private String value;
+  private int value;
 }

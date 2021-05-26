@@ -9,5 +9,9 @@ public class NextTripRequestTemplate implements Serializable {
 
   private static final long serialVersionUID = 1L;
 
-  private Integer caseId;
+  private String busRoute;
+
+  private String busStopName;
+
+  private String direction;
 }

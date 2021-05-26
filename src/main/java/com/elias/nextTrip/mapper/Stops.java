@@ -10,16 +10,13 @@ import java.io.Serializable;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Routes implements Serializable {
+public class Stops implements Serializable {
 
   private static final long serialVersionUID = 1L;
 
-  @JsonProperty("Description")
-  private String description;
+  @JsonProperty("Text")
+  private String text;
 
-  @JsonProperty("ProviderID")
-  private int providerID;
-
-  @JsonProperty("Route")
-  private int route;
+  @JsonProperty("Value")
+  private String value;
 }
